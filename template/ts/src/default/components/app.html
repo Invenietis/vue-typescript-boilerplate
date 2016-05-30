@@ -1,0 +1,16 @@
+<div class="app">
+    <h1>Hello <span class="world">{{ name }}</span></h1>
+    <ul>
+        <li><a href="#" v-link="{ name: 'one' }">Part One</a></li>
+        <li ><a href="#" v-link="{ name: 'two'}">Part Two</a></li>
+    </ul>
+        
+    <router-view></router-view>
+</div>
+<style type="less">
+    .app{
+        .world{
+            color: darkorange;
+        }
+    }
+</style>

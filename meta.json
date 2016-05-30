@@ -1,0 +1,21 @@
+{
+    "prompts": {
+        "name":{
+            "type":"string",
+            "required": true,
+            "message": "Project name"
+        },
+        "inversify":{
+            "type": "confirm",
+            "message": "Add inversifyjs to use dependency injection ?"
+        },
+        "crs": {
+            "type": "confirm",
+            "message": "Add CRS for this project ?"
+        }
+    },
+     "filters": {
+        "ts/src/default/di.config.ts": "inversify",
+        "ts/src/default/emitter.ts": "crs && !inversify"
+    }
+}

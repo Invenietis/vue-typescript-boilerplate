@@ -1,0 +1,52 @@
+{
+  "name": "{{ name }}",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://invenietis.visualstudio.com/DefaultCollection/ComponentKitchen/_git/vue-starter-kit"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    {{#crs}}
+    "ck-crs": "0.9.0",
+    "ms-signalr-client": "^2.2.2",
+    {{/crs}}
+    "es6-promise": "^3.2.1",
+    {{#inversify}}
+    "inversify": "^2.0.0-beta.6",
+    "inversify-dts": "^1.0.0",
+    {{/inversify}}
+    "jquery": "^2.2.4",
+    "vue": "^1.0.24",
+    "vue-router": "^0.7.13",
+    "vue-validator": "^2.1.2"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-typescript": "2.10.0",
+    "gulp-less": "^3.1.0",
+    "gulp-cssmin": "^0.1.7",
+    "gulp-uglify": "^1.5.3",
+    "gulp-vue-template2js": "^0.9.0",
+    "gulp-html-extract": "^0.1.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-inject": "^4.1.0",
+    "gulp-rimraf": "^0.2.0",
+    "gulp-plumber": "^1.1.0",
+    "run-sequence": "1.2.1",
+    "merge2": "^1.0.1",
+    "jasmine-core": "^2.4.1",
+    "systemjs": "^0.19.29",
+    "webpack": "^1.13.1",
+    "webpack-stream": "^3.2.0",
+    "typescript": "^1.8.10",
+    "webpack-merge": "^0.13.0"
+  }
+}

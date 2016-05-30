@@ -1,0 +1,8 @@
+{
+  "resolution": "main",
+  "tree": {
+    "src": "c:\\Dev\\vue-starter-kit\\node_modules\\inversify-dts\\inversify\\inversify.d.ts",
+    "raw": "file:node_modules/inversify-dts/inversify/inversify.d.ts",
+    "typings": "c:\\Dev\\vue-starter-kit\\node_modules\\inversify-dts\\inversify\\inversify.d.ts"
+  }
+}

@@ -1,6 +1,5 @@
-# vue-starter-kit
-
-> vue template using [typescript](http://www.typescriptlang.org), [webpack](https://webpack.github.io) and [systemjs](https://github.com/systemjs/systemjs)
+# {{ name }}
+> vue project using [typescript](http://www.typescriptlang.org), [webpack](https://webpack.github.io) and [systemjs](https://github.com/systemjs/systemjs)
 
 ## Build Setup
 

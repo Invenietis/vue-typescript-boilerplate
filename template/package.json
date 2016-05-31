@@ -13,7 +13,7 @@
   "license": "ISC",
   "dependencies": {
     {{#crs}}
-    "ck-crs": "0.9.0",
+    "ck-crs": "0.9.1",
     "ms-signalr-client": "^2.2.2",
     {{/crs}}
     "es6-promise": "^3.2.1",

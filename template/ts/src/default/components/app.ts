@@ -1,5 +1,5 @@
 import router from '../router.config';
-require('../di.config');
+import '../di.config';
 
 var app = Vue.extend( {
     template: "@" //Means that the HTML is located at ./app.html

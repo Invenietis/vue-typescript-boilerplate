@@ -13,9 +13,11 @@ var defaultCss = [
 
 module.exports = {
     js : {
+        //default js bundle
         default: defaultJs,
     },
     css: {
+        //default css bundle
         default: defaultCss,
     },
     //{ [target:string]: sources: string | string[] }
